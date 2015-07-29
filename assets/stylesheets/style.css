@@ -1,0 +1,48 @@
+body {
+	height: 100vh;
+}
+
+header, footer {
+	color: #eee;
+	background-color: #000;
+	background: url(../images/wood.jpg) no-repeat center;
+	background-size: cover;
+}
+
+main {
+	overflow: scroll;
+	height: 81%;
+	background: url(../images/cork-board.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.postIts {
+	background: url(../images/post_it.png) no-repeat center;
+	background-size: contain;
+	height: 400px;
+	padding: 0 10% 0 2%;
+}
+
+.postIts p {
+	font-family: 'Crafty Girls', cursive;
+	font-size: 1.5em;
+	position: relative;
+	top: 30%;
+	left: 15%;
+}
+
+/*=============================
+=	Mobile Specific Styling   =
+=============================*/
+
+@media only screen and (min-width: 468px) and (max-width: 767px) {
+	.postIts {
+		padding: 0 35% 0 20%;
+	}
+}
+
+@media only screen and (max-width : 468px) {
+	.postIts {
+		padding: 0 25% 0 0;
+	}
+}
