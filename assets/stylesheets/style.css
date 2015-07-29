@@ -29,6 +29,9 @@ main {
 	position: relative;
 	top: 30%;
 	left: 15%;
+	-webkit-transform: rotate(353deg);
+	-moz-transform: rotate(353deg);
+	-o-transform: rotate(353deg);
 }
 
 /*=============================

@@ -8,6 +8,7 @@ $(document).on('submit', '.postForm', function(){
 				'<p>'+$('input.postInput').val()+'</p>'+
 				'</div>'
 			);
+			$('.postForm')[0].reset();
 		},
 		'json'
 	);
